@@ -1,0 +1,29 @@
+#root {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#questions {
+    width: 100%;
+    min-height: 300px;
+}
+
+#controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn-control {
+    display: block;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background: blueviolet;
+    color: #fff;
+}
